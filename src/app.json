@@ -1,0 +1,179 @@
+{
+  "pages": [
+    "pages/tarba/home",
+    "pages/author/index",
+    "pages/tarba/person",
+    "pages/tarba/cart",
+    "pages/tarba/class",
+    "pages/tarba/nearyShop"
+  ],
+  "subPackages": [{
+      "root": "pages/my",
+      "pages": [
+        "tuanzhangcenter/tuanzhangcenter",
+        "tuanzhangcenter/restuanzhang",
+        "tuanzhangcenter/changeinfo",
+        "tuanzhangcenter/getmoney",
+        "tuanzhangcenter/shenhetijiao",
+        "tuanzhangcenter/tixianshenhe",
+        "tuanzhangcenter/zhangdan",
+        "tuanzhangcenter/todayDetails",
+        "shangjia/shangjiaruzhu",
+        "kefucenter",
+        "message",
+        "mypingjia",
+        "shezhicenter",
+        "shoucang",
+        "person_msg",
+        "changeMoblie",
+        "message_detail",
+        "tuanzhangcenter/serverLinged",
+        "tuanzhangcenter/choseLeader",
+        "tuanzhangcenter/todayOrderDetails"
+      ]
+    },
+    {
+      "root": "pages/order",
+      "pages": [
+        "fapiao",
+        "finishorder",
+        "all",
+        "orderdetials",
+        "shequorder",
+        "goodorder",
+        "wuliu",
+        "quxiaoorder",
+        "pay_success",
+        "TuiShop",
+        "pinorderdetials",
+        "shenqingtui",
+        "shequorderdetial",
+        "shequTui",
+        "tuanzhangorder"
+      ]
+    },
+    {
+      "root": "pages/address",
+      "pages": [
+        "myadd",
+        "buyeadit",
+        "buyadd",
+        "myeadit",
+        "position",
+        "addaddress"
+      ]
+    },
+    {
+      "root": "pages/search",
+      "pages": [
+        "index",
+        "search_product",
+        "search_shop",
+        "shopsearchprod"
+      ]
+    },
+    {
+      "root": "pages/goodPing",
+      "pages": [
+        "goodPingIndex",
+        "goodPingDetails"
+      ]
+    },
+    {
+      "root": "pages/shopdetails",
+      "pages": [
+        "index",
+        "youhuijuan",
+        "couponlin"
+      ]
+    },
+    {
+      "root": "pages/Good",
+      "pages": [
+        "gooddetials"
+      ]
+    },
+    {
+      "root": "pages/class",
+      "pages": [
+        "oneclass",
+        "class_search",
+        "onepinclass"
+      ]
+    },
+    {
+      "root": "pages/discount",
+      "pages": [
+        "discountList",
+        "goodFood",
+        "pintuanList"
+      ]
+    },
+    {
+      "root": "pages/upSet",
+      "pages": [
+        "fuwutiaowen",
+        "problem",
+        "provisionsDetail",
+        "yijian",
+        "fuwen",
+        "problemDetials"
+      ]
+    },
+    {
+      "root": "pages/pintuan",
+      "pages": [
+        "nearbytuan",
+        "gooddetailspin",
+        "pintuanSub",
+        "pintuanGood"
+      ]   
+    }
+    ,
+    {
+      "root": "pages/bind",
+      "pages": [
+        "bindtell"      
+      ]   
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#72D241",
+    "navigationBarTitleText": "山城乡鲜",
+    "navigationBarTextStyle": "white",
+    "onReachBottomDistance" :50,
+    "withShareTicket":true
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "usingComponents": {
+    "van-icon": "/static/vant/icon/index",
+    "van-search": "/static/vant/search/index",
+    "van-tabbar": "/static/vant/tabbar/index",
+    "van-tabs": "/static/vant/tabs/index",
+    "van-tab": "/static/vant/tab/index",
+    "van-tabbar-item": "/static/vant/tabbar-item/index",
+    "van-checkbox": "/static/vant/checkbox/index",
+    "van-radio": "/static/vant/radio/index",
+    "van-rate": "/static/vant/rate/index",
+    "van-radio-group": "/static/vant/radio-group/index",
+    "van-goods-action": "/static/vant/goods-action/index",
+    "van-goods-action-big-btn": "/static/vant/goods-action-button/index",
+    "van-list": "/static/vant/collapse/index",
+    "van-cell":"/static/vant/cell/index",
+    "van-cell-group":"/static/vant/cell-group/index",
+    "van-card":"/static/vant/card/index",
+    "van-count-down":"/static/vant/count-down/index",
+    "van-field":"/static/vant/field/index",
+    "van-popup":"/static/vant/popup/index"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取你的地理位置" 
+    }
+  }
+
+}
